@@ -54,3 +54,26 @@ body{
 h1{
   text-align: center;
 }
+
+@media all and (max-width:768px) {
+  .mainDiv{
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .sub1{
+    width: 100%;
+    display: flex;
+  }
+
+  .sub2{
+    width: 100%;
+    display: flex;
+  }
+
+  .sub3{
+    width: 100%;
+    display: flex;;
+  }
+
+}

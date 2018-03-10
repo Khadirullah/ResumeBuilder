@@ -1,0 +1,68 @@
+.mainDiv{
+  background: yellow;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftDiv{
+  width: 25.5%;
+  height: 100%;
+  position: fixed;
+  background: red;
+  text-align: center;
+}
+
+.rightDiv{
+  margin-left: 26%;
+  width: 75%;
+  background: #adaeda;
+
+}
+
+.image4{
+  width: 85%;
+  height: 85%;
+  margin: 7%;
+  border-radius: 25%;
+}
+
+.Career{
+  padding: 2%;
+}
+.Education{
+  padding: 2%;
+}
+.Technical-Qualifications{
+  padding: 2%;
+}
+.Achievements{
+  padding: 2%;
+}
+
+@media all and (min-width:500px) and (max-width:768px) {
+  body{
+    background: blue;
+  }
+
+  .mainDiv{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .leftDiv{
+    width:100%;
+    position: relative;
+    display: flex;
+  }
+
+  .rightDiv{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .lChildUp2{
+    margin-top: auto;
+  }
+  .lChildUp3{
+    margin-top: auto;
+  }
+}
